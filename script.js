@@ -10,6 +10,7 @@ function carregarCatalogo() {
                 produtoDiv.classList.add('product');
 
                 produtoDiv.innerHTML = `
+                    <span class='numeracao'>${produto.numeracao}</span><br>
                     <img src="${produto.link_imagem}" alt="${produto.descricao}">
                     <h3>${produto.descricao}</h3>
                     <p class="price">
